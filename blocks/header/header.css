@@ -1,0 +1,10 @@
+.header {
+    font-family: 'Cormorant', sans-serif;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    min-height: 88px;
+    align-items: flex-end;
+}

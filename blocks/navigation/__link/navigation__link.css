@@ -1,0 +1,13 @@
+.navigation__link {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__link:last-of-type {
+    padding-left: 20px;
+}
