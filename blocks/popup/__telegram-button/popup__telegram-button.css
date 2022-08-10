@@ -1,0 +1,16 @@
+.popup__telegram-button {
+  background-image: url(../../../images/icons8-удалить-50.png);
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background-color: transparent;
+  transition: 0.8s;
+  cursor: pointer;
+  background-position: center;
+  background-size: contain;
+}
+
+.popup__telegram-button:hover {
+  opacity: 0.6;
+}

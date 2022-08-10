@@ -1,0 +1,17 @@
+.popup__copy-button {
+    background-image: url(../../../images/icons8-скопировать-25.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    transition: 0.8s;
+    cursor: pointer;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .popup__copy-button:hover {
+    opacity: 0.6;
+  }

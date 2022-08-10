@@ -1,8 +1,7 @@
 .footer {
     height: 42px;
-    background-color: #EAEAEA;
-    position: absolute;
-  left: 200px;
-  right: 200px;
-  bottom: 0;
+  background-color: #EAEAEA;
+  justify-self: flex-end;
+  width: 100%;
+  margin-top: auto;
 }

@@ -1,7 +1,15 @@
 .navigation {
     display: flex;
-    width: 167px;
     justify-content: space-between;
-    padding: 0 0 7px 0;
+    padding: 0 0 7px;
     margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .navigation {
+        /*flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;*/
+        padding: 0 0 3px;
+    }
 }

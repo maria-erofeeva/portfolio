@@ -6,8 +6,18 @@
     margin: 0;
     text-decoration: none;
     color: black;
+    background-color: transparent;
+    border-style: none;
+    transition: 0.5s;
+  cursor: pointer;
 }
 
-.navigation__link:last-of-type {
-    padding-left: 20px;
+@media screen and (max-width: 425px) {
+    .navigation__link {
+        font-size: 15px;
+    }
 }
+
+.navigation__link:hover {
+    opacity: 0.6;
+  }

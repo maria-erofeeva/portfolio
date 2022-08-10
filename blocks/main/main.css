@@ -1,5 +1,17 @@
 .main {
-    position: relative;
   min-height: 100%;
-  padding-bottom: 90px;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0 30px 90px
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    padding: 0 14px 90px
+  }
 }

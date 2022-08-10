@@ -2,6 +2,18 @@
     text-transform: lowercase;
     font-size: 32px;
     font-weight: 700;
-    padding: 0 0 3px 0;
+    padding: 0 0 7px;
     margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .header__title {
+        padding: 0 0 3px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__title {
+        font-size: 20px;
+    }
 }
