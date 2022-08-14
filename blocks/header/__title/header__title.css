@@ -1,9 +1,10 @@
 .header__title {
     text-transform: lowercase;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 400;
     padding: 0 0 7px;
     margin: 0;
+    font-family: "Roboto Mono";
 }
 
 @media screen and (max-width: 550px) {

@@ -40,22 +40,23 @@
 
     <div class="popup" id="popup">
       <div class="popup__container">
-              <h2 class="popup__title">Контакты</h2>
+        <div class="popup__title">
+          <h2 class="popup__title">Контакты</h2>
+          <p class="popup__current-name">Ерофеева Мария Н.</p> 
+        </div>
               <div class="popup__contacts">
-                <div class="popup__name">
-                  <p>Ерофеева Мария Н.</p> 
+                <div class="popup__line popup__phone">
+                  <p class="popup__text">Тел.: <span class="popup__span">+7 (916) 941-49-61</span></p>
+                  <!--<button class="popup__copy-button" type="button" aria-label="Copy"></button>-->
+                  <!--<div class="popup__copy-button"></div>-->
                 </div>
-                <div class="popup__phone">
-                  <p class="popup__phone-text">Тел.: +7 (916) 941-49-61</p>
-                  <button class="popup__copy-button" onclick="copyFunction()" type="button" aria-label="Copy"></button>
+                <div class="popup__line popup__telegram">
+                  <p class="popup__text">ТГ: <span class="popup__span">@ageandability</span></p>
+                  <a class="popup__telegram-button" href="https://telegram.me/ageandability"></a>
                 </div>
-                <div class="popup__telegram">
-                  <p class="popup__telegram-text">ТГ: @ageandability</p>
-                  <a class="popup__telegram-button"></a>
-                </div>
-                <div class="popup__email">
-                  <p class="popup__email-text">Почта: erofeym@bk.ru</p>
-                  <a class="popup__email-button"></a>
+                <div class="popup__line popup__email">
+                  <p class="popup__text">Почта: <span class="popup__span">erofeym@bk.ru</span></p>
+                  <a class="popup__email-button" href="mailto:erofeym@bk.ru"></a>
                 </div>
             </div>
           <button class="popup__close-icon" type="button" aria-label="Close"></button>

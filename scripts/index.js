@@ -14,3 +14,11 @@ function closePopup() {
 }
 
 popupCloseButton.addEventListener("click", closePopup);
+
+document.body.onClick = (event) => {
+  const elem = event.target;
+  if (elem.classList.contains('popup__phone-text')) {
+    navigator.clipboard.writeText('+7 (916) 941-49-61');
+  }
+}
+

@@ -1,0 +1,18 @@
+.popup__email-button {
+    background-image: url(../../../images/icons8-опции-почты-50.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    transition: 0.8s;
+    cursor: pointer;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .popup__email-button:hover {
+    opacity: 0.6;
+  }
+  

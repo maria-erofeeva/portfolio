@@ -1,7 +1,8 @@
 .navigation__link {
     text-transform: lowercase;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: "Roboto Mono";
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -10,6 +11,7 @@
     border-style: none;
     transition: 0.5s;
   cursor: pointer;
+  text-shadow: 0 0 5px #C3F206;
 }
 
 @media screen and (max-width: 425px) {
@@ -19,5 +21,5 @@
 }
 
 .navigation__link:hover {
-    opacity: 0.6;
+  text-shadow: 0 0 5px #00ff15;
   }

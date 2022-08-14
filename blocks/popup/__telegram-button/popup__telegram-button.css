@@ -1,8 +1,8 @@
 .popup__telegram-button {
-  background-image: url(../../../images/icons8-удалить-50.png);
+  background-image: url(../../../images/icons8-телеграмма-app-30.svg);
   background-repeat: no-repeat;
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   padding: 0;
   background-color: transparent;
   transition: 0.8s;
